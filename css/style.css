@@ -87,7 +87,7 @@ nav .button-set .section{
     border-top: 10px solid #f6f8f9;
 }
 .task-container {
-    margin: 50px 50px;
+    margin: 50px 50px 50px;
     color: #444851;
 }
 
@@ -119,4 +119,12 @@ ul .check {
     border: 2px solid red;
     color: red;
     padding: 3px;
+}
+
+.editorial{
+    padding: 7px 12px;
+    border-radius: 10px;
+    background-color: blue;
+    font-size: .6em;
+    color: white;
 }
