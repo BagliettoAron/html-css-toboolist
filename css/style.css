@@ -47,7 +47,7 @@ header .main-margin{
     height: 100%;
     background-color: #f6f8f9;
     padding-top: 50px;
-
+    padding-bottom: 50px;
 
 }
 
@@ -55,7 +55,7 @@ header .main-margin{
     width: 70%;
     margin: 0 auto;
     background-color: white;
-    border-radius: 5px;
+    border-radius: 10px;
 }
 
 /* NAV */
@@ -87,7 +87,7 @@ nav .button-set .section{
     border-top: 10px solid #f6f8f9;
 }
 .task-container {
-    margin: 50px 50px 50px;
+    margin: 50px;
     color: #444851;
 }
 
@@ -111,13 +111,13 @@ ul .check {
     margin: 10px;
 }
 
-.green {
+.green-v {
     border: 2px solid green;
     color: green;
     padding: 3px;
 }
 
-.red {
+.red-x {
     border: 2px solid red;
     color: red;
     padding: 3px;
@@ -130,6 +130,26 @@ ul .check {
     color: white;
 }
 
-.blue{
+li .editorial.blue{
     background-color: #45abea;
+}
+
+li .editorial.violet{
+    background-color: #9c72e4;
+}
+
+li .editorial.green{
+    background-color: gree;
+}
+
+li .editorial.orange{
+    background-color: #f29e33;
+}
+
+li .editorial.pink{
+    background-color:#d863a1;
+}
+
+li .editorial.light-green{
+    background-color:#b0c926;
 }
