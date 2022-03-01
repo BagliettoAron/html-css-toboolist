@@ -115,7 +115,8 @@ ul .check {
     padding: 3px;
 }
 
-.unchecked {
+.red {
     border: 2px solid red;
     color: red;
+    padding: 3px;
 }
