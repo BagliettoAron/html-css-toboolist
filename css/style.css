@@ -98,6 +98,7 @@ nav .button-set .section{
 
 ul {
    list-style-type: none; 
+   margin-bottom: 25px;
 }
 
 ul .check {
@@ -107,6 +108,7 @@ ul .check {
     box-sizing: border-box;
     text-align: center;
     margin-right: 10px;
+    margin: 10px;
 }
 
 .green {
@@ -124,7 +126,10 @@ ul .check {
 .editorial{
     padding: 7px 12px;
     border-radius: 10px;
-    background-color: blue;
     font-size: .6em;
     color: white;
+}
+
+.blue{
+    background-color: #45abea;
 }
