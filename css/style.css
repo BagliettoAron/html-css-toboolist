@@ -63,7 +63,6 @@ header .main-margin{
 nav .button-set{
 margin-left: 5em;
 padding: 10px;
-border-bottom: 3px solid #f6f8f9;
 }
 
 nav .button-set .button{
@@ -82,4 +81,41 @@ nav .button-set .add{
 nav .button-set .section{
     background-color: white;
     color: #c5cbd0;
+}
+
+#border-top{
+    border-top: 10px solid #f6f8f9;
+}
+.task-container {
+    margin: 50px 50px;
+    color: #444851;
+}
+
+.menu{
+    font-size: 1.5em;
+    
+}
+
+ul {
+   list-style-type: none; 
+}
+
+ul .check {
+    display: inline-block;
+    border-radius: 50%;
+    line-height: 15px;
+    box-sizing: border-box;
+    text-align: center;
+    margin-right: 10px;
+}
+
+.green {
+    border: 2px solid green;
+    color: green;
+    padding: 3px;
+}
+
+.unchecked {
+    border: 2px solid red;
+    color: red;
 }
